@@ -1,0 +1,28 @@
+.Banner{
+	background-image: url("../../assets/img/Lociones.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 18%;
+	position: relative;
+	z-index: 1;
+}
+
+.Banner::after {
+	content: '';
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: black;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.title{
+	font-size: 3vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	letter-spacing: 1vw;
+}

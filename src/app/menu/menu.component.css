@@ -1,0 +1,14 @@
+
+body {
+  scroll-behavior: smooth;
+}
+
+.menu{
+  background-color: transparent;
+  transition: 1s;
+}
+
+.menu2{
+  background-color: rgb(12, 46, 1);
+  transition: 2s;
+}
