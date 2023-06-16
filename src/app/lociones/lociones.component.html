@@ -1,1 +1,17 @@
-<p> Catalogo y muestra simple de lociones</p>
+<div class="container my-2">
+	<div class="row">
+		<div class="col-12">
+			<h2 class="title text-center"> Algunas de nuestras referencias</h2>
+		</div>
+		<hr>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-2 mt-5">
+		<div class="col mb-3" *ngFor="let locion of lociones">
+		<div class="card h-100 shadow text-center mt-3 mb-3">
+			<img src= {{locion.foto[0]}}  alt="fotoLocion" class="img-fluid w-100 mt-3">
+			<h2 class="subtitle fw-bold mt-3"> {{locion.nombre}} </h2>
+		</div>
+		</div>
+	</div>
+</div>
