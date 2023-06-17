@@ -20,19 +20,46 @@
 	z-index: -1;
 }
 
-.title{
-	font-size: 3.5vw;
+h1{
+	font-size: 5vw;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	text-align: center;
-	letter-spacing: 2vw;
+	letter-spacing: 1.3vw;
+	font-weight: bold;
+  background: linear-gradient(-45deg, #000000, #b1b1b1, #d3d3d3, #ffffff, #647692);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 10s ease infinite;
 }
 
-@media screen and (max-width: 768px) {
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+/*from{ opacity: 0.5;}
+  to{ opacity: 1;}*/
+}
+
+
+
+h2{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 405px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 768px */
-  .title {
-    font-size: 8vw; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
-    letter-spacing: 1vw; /* Ajusta el espaciado para dispositivos más pequeños */
-  }
+
+h2{
+font-size: 2vw;
+}  
 
   img {
     height: auto; /* Hace que la altura de la imagen sea automática para dispositivos más pequeños */

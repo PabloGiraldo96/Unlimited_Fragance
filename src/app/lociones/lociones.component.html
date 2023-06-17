@@ -1,17 +1,21 @@
-<div class="container my-2">
+<div class=" bg-dark sesion">
 	<div class="row">
 		<div class="col-12">
 			<h2 class="title text-center"> Algunas de nuestras referencias</h2>
 		</div>
-		<hr>
+
 	</div>
 
-	<div class="row row-cols-1 row-cols-md-2 mt-5">
+	<div class="row row-cols-1 row-cols-md-2 mt-2">
 		<div class="col mb-3" *ngFor="let locion of lociones">
-		<div class="card h-100 shadow text-center mt-3 mb-3">
-			<img src= {{locion.foto[0]}}  alt="fotoLocion" class="img-fluid w-100 mt-3">
-			<h2 class="subtitle fw-bold mt-3"> {{locion.nombre}} </h2>
+			<div class="card h-100 shadow text-center">,
+				<img src= {{locion.foto[0]}}  alt="fotoLocion" class="img-fluid w-100">
+				<h2 class="subtitle fw-bold"> {{locion.nombre}} </h2>
+			</div>
 		</div>
-		</div>
-	</div>
-</div>
+		</div> <a href="../../assets/Catalogo perfumes 75ml (e).pdf" target="_blank"> 
+		<button type="submit" class="btn btn-primary w-35" title="Success registering a room" role="button">  
+		Revisa aquí nuestro catalogo completo </button> </a>
+	<h3 class="subtitle_one">Recuerda que tenemos muchas más referencias, si tienes una especial, sólo pregúntanos! </h3>	
+</div>	
+<hr>
