@@ -1,0 +1,65 @@
+.clientes{
+	background-image: url("../../assets/img/fraganceNight.png");
+	background-position: top center;
+	background-size: auto 100%;
+	background-size: cover;
+	padding: 18%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.clientes::after {
+	content: '';
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: rgb(0, 0, 0);
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+}
+
+.title{
+	font-size: 3vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	position: absolute;
+	top: 1vw;
+	left: 35vw;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	letter-spacing: 0.2vw;
+	z-index: 1;
+}
+
+img{
+position: absolute;
+width: 25vw;
+height: 28vw;
+top: 5.8vw;
+left: 10vw;
+z-index: 1;
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 20vw;
+  right: 5vw;
+  width: 85px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: url("../../assets/img/whatsapp.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  z-index: 9999;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.floating-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}

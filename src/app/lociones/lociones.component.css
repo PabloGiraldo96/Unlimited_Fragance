@@ -39,7 +39,7 @@
 }
 
 .subtitle_one{
-	font-size: 1.4vw;
+	font-size: 1.2vw;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: rgb(255, 255, 255);
 	text-align: center;
@@ -49,9 +49,11 @@
 
 .card {
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-background-color:rgb(224, 224, 224);
+background-color:rgb(143, 143, 143);
 border-radius: 50px;
-border: solid 7px rgb(109, 109, 109);
+width: 20vw;
+column-gap: normal;
+border: solid 5px rgb(0, 0, 0);
 box-shadow: inset 28px 28px 56px #c3c3c3,
             inset -28px -28px 56px #fdfdfd;
 }
@@ -86,7 +88,7 @@ color: #000000;
 }
 
 .subtitle_one{
-	font-size: 5vw;
+	font-size: vw;
 }
 
 .title{
@@ -97,9 +99,9 @@ color: #000000;
 	height: 100%;
   }
 
-img{
-	width: max-content;
-	height: 110vw;
+img, .card{
+	width: 65vw;
+	height: 90vw;
 
 }
 

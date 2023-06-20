@@ -30,9 +30,19 @@ export class LocionesComponent {
     foto:["https://firebasestorage.googleapis.com/v0/b/unlimitedfragance.appspot.com/o/Locion4.png?alt=media&token=905ca6e4-36af-4777-b94d-6a49a4cbc724"],
     precio: 40000
 } 
+  public locion5: Locion = {
+    nombre: "Dolce Gabbana Light Blue",
+    foto:["https://firebasestorage.googleapis.com/v0/b/unlimitedfragance.appspot.com/o/Locion6.png?alt=media&token=67cf3bc7-f1a2-4ede-9e8a-67fbe7307356"],
+    precio: 40000
+} 
+  public locion6: Locion = {
+    nombre: "Moschino Funny",
+    foto:["https://firebasestorage.googleapis.com/v0/b/unlimitedfragance.appspot.com/o/Locion5.png?alt=media&token=1e457131-52e1-4d4f-9de6-90b9596dbb7d"],
+    precio: 40000
+} 
 
 
-public lociones: Locion[] = [this.locion1, this.locion2, this.locion3, this.locion4]
+public lociones: Locion[] = [this.locion1, this.locion2, this.locion3, this.locion4, this.locion6, this.locion5]
 
 public constructor(){
   console.log(this.lociones)

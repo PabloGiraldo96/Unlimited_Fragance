@@ -26,12 +26,12 @@ h1{
 	text-align: center;
 	letter-spacing: 1.3vw;
 	font-weight: bold;
-  background: linear-gradient(-45deg, #000000, #b1b1b1, #d3d3d3, #ffffff, #647692);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient 10s ease infinite;
-}
+	background: linear-gradient(-45deg, #000000, #b1b1b1, #d3d3d3, #ffffff, #647692);
+	background-size: 400% 400%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	}
 
 @keyframes gradient {
 	0% {
