@@ -67,6 +67,7 @@ font-size: 9.5vw; /* Ajusta el tamaño de fuente para dispositivos más pequeño
   }
 
  .Banner {
+	object-fit: contain;
     padding: 10%; /* Ajusta el relleno del banner para dispositivos más pequeños */
 	height: 110vw;
   }
