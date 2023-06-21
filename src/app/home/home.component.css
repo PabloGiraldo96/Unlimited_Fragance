@@ -3,10 +3,9 @@
 	background-position: top center;
 	background-size: cover;
 	background-attachment: fixed;
-	padding: 25%;
+	padding: 15%;
 	position: relative;
 	z-index: 1;
-	animation: fade 6s ease-in-out;
 }
 
 .Banner::after {
@@ -15,17 +14,15 @@
 	top:0;
 	left:0;
 	background-color: black;
-	opacity: 0.8;
+	opacity: 0.4;
 	height: 100%;
 	width: 100%;
 	z-index: -1;
-	animation: fade-in 7s ease-in-out;
-	animation-delay: 0s;
 }
 
 .title{
 	font-size: 5vw;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	letter-spacing: 1.3vw;
 	font-weight: bold;
@@ -37,7 +34,7 @@
 	}
 
 .subtitle{
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 2vw;
 }
 
@@ -53,29 +50,10 @@
 	}
 }
 
-@keyframes fade {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 0% 0%;
-  }
-
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-
 @media screen and (max-width: 768px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 768px */
 .title{
-font-size: 9vw; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+font-size: 9.5vw; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
     
 }
 
