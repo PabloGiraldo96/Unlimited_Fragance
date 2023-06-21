@@ -4,7 +4,7 @@
 	background-position: top center;
 	background-size: auto 100%;
 	background-size: cover;
-	padding: 18%;
+	padding: 15%;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -22,10 +22,12 @@
 }
 
 .title{
-	font-size: 3vw;
+	font-size: 2vw;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	position: sticky;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-radius: 22px;
+	background-color: white;
 	text-align: center;
 	letter-spacing: 0.5vw;
 }
@@ -39,9 +41,11 @@
 }
 
 .subtitle_one{
-	font-size: 1.2vw;
+	font-size: 1.8vw;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-radius: 22px;
+	background-color: white;
 	text-align: center;
 	letter-spacing: 3px;
 	border-radius: 18px;
@@ -53,9 +57,10 @@ background-color:rgb(143, 143, 143);
 border-radius: 50px;
 width: 20vw;
 column-gap: normal;
-border: solid 5px rgb(0, 0, 0);
-box-shadow: inset 28px 28px 56px #c3c3c3,
-            inset -28px -28px 56px #fdfdfd;
+    backdrop-filter: blur(12px) saturate(175%);
+    -webkit-backdrop-filter: blur(12px) saturate(175%);
+    background-color: rgba(52, 55, 59, 0.69);
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 img{
@@ -82,17 +87,16 @@ color: #000000;
 @media screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 768px */
 
-
 .subtitle{
-	font-size: 8vw;
+	font-size: 7vw;
 }
 
 .subtitle_one{
-	font-size: vw;
+	font-size: 7vw;
 }
 
 .title{
-	font-size: 12vw;
+	font-size: 9vw;
 }
 
 .container {
