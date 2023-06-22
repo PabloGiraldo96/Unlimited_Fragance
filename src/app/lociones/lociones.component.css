@@ -112,4 +112,11 @@ img, .card{
 position: relative;
 bottom: 10px;
 	}
+
+ .Banner {
+	object-fit: contain;
+    padding: 5%; /* Ajusta el relleno del banner para dispositivos más pequeños */
+	height: 165vw;
+  }
+
 }

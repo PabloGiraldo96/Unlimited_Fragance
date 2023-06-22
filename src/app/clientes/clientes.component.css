@@ -82,5 +82,11 @@ img{
 
 .floating-btn{
 position: fixed;
-	}
+}
+
+ .Banner {
+	object-fit: contain;
+    padding: 5%; /* Ajusta el relleno del banner para dispositivos más pequeños */
+	height: 165vw;
+  }
 }
