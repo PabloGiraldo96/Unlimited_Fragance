@@ -6,8 +6,11 @@ import { ClientesComponent } from './clientes/clientes.component';
 import { FooterComponent } from './footer/footer.component';
 
 
-const routes: Routes = [{path: '', redirectTo: 'home', pathMatch: 'full' }, 
-            {path: 'inicio', component: HomeComponent}, {path: 'lociones', component: LocionesComponent}, {path: 'clientes', component: ClientesComponent}, {path: 'footer', component: FooterComponent}];
+const routes: Routes = [
+            {path: '', component: HomeComponent, pathMatch: 'full'}, 
+            {path: 'lociones', component: LocionesComponent}, 
+            {path: 'clientes', component: ClientesComponent},   
+            {path: 'footer', component: FooterComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

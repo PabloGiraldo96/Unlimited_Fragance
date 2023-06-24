@@ -8,7 +8,7 @@ import { Locion } from '../interfaz/lociones';
 })
 export class LocionesComponent {
   public locion1: Locion = {
-    nombre: 'One Million',
+    nombre: 'One Million',  
     foto:['https://firebasestorage.googleapis.com/v0/b/unlimitedfragance.appspot.com/o/Locion1.png?alt=media&token=0558e68d-13d1-41ba-854e-d241ee7bb82c'],
     precio: 40000
 }
@@ -44,8 +44,10 @@ export class LocionesComponent {
 
 public lociones: Locion[] = [this.locion1, this.locion2, this.locion3, this.locion4, this.locion6, this.locion5]
 
+
 public constructor(){
   console.log(this.lociones)
+
+  }
 }
 
-}

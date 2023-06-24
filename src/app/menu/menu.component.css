@@ -4,11 +4,6 @@ body {
 }
 
 .menu{
-  background-color: transparent;
-  transition: 1s;
-}
-
-.menu2{
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   transition: 1s;
 }
