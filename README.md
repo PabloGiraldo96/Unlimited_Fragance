@@ -25,6 +25,7 @@
  * Components
  * Typescript
  * Bootstrap styling
+ * Instagram and Whatsapp connection
 
  ##
 
